@@ -91,3 +91,13 @@ AI model improvement with real data
 📌 Conclusion
 
 Annadata aims to make precision agriculture accessible, affordable, and scalable by combining IoT, AI, and real-world validation.
+
+## Team
+
+This project was developed collaboratively as part of a hackathon initiative. All team members contributed equally across system design, development, and testing.
+
+Team Members:
+- Kabir Sharma
+- Clyde Rodrigues
+- Shubhada Ghuge
+- Joshua Dsouza
