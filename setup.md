@@ -16,7 +16,7 @@
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-repo-link
+git clone https://github.com/joshdoshboi/Anndata-FINAL-
 
 2. Navigate to the project folder:
 cd anndata
@@ -76,3 +76,5 @@ python app.py
 - Tested in real farm environments
 - Sensors deployed in soil for live data collection
 - Validated system outputs with real conditions
+
+
