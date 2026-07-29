@@ -1,103 +1,70 @@
-🌱 Annadata
-AI & IoT Based Smart Agriculture System
+# Annadata
 
-Annadata is an AI and IoT-powered smart agriculture platform designed to help small and marginal farmers make data-driven decisions related to irrigation, crop health, and soil conditions.
+**Annadata** is an AI and IoT-powered smart agriculture system designed to help farmers make data-driven decisions using real-time environmental data. By combining IoT sensors, cloud computing, and machine learning, the platform provides actionable insights for irrigation management and crop health monitoring.
 
-🚀 Problem Statement
+---
 
-A large portion of farming decisions in India are still based on intuition and experience rather than real-time data. This often leads to:
+## Overview
 
-Over or under irrigation
-Late detection of crop stress
-Inefficient use of resources
-Reduced yield and income
-💡 Our Solution
+Traditional farming often relies on manual observation and experience, making it difficult to detect crop stress early or optimize water usage. Annadata addresses this challenge by collecting real-time field data and converting it into meaningful recommendations that support more efficient and sustainable farming practices.
 
-Annadata bridges this gap by combining IoT-based soil monitoring with AI-driven insights to deliver simple and actionable recommendations to farmers.
+A key feature of the system is its **shared infrastructure model**, where a single sensor hub can serve multiple nearby farms, significantly reducing deployment costs while improving accessibility to precision agriculture.
 
-⚙️ How It Works
-Data Collection
-ESP32-based sensor nodes collect:
-Soil moisture
-Temperature
-Humidity
-Data Transmission
-Data is sent to a cloud backend.
-AI Processing
-Machine learning models analyze:
-Sensor data
-Weather inputs
-Actionable Output
-Farmers receive:
-Irrigation alerts
-Crop stress warnings
-Recommendations
-🌾 Key Innovation
-Shared Infrastructure Model
+---
 
-Instead of installing sensors on every farm:
+## Features
 
-One sensor hub serves multiple nearby farms
-Reduces cost per farmer significantly
-Makes precision agriculture affordable
-🧪 Field Validation
-Conducted real farm visits
-Deployed sensors in soil
-Collected live data
-Interacted directly with farmers
-Refined system based on real-world feedback
-🏆 Achievements
-🥈 2nd Place — ADAPPT Hackathon (NMIMS)
-🌟 National Finalist — Ideastorm, E-Summit 2026, IIT Roorkee
-Built and demonstrated a working prototype
-💰 Business Model
+* Real-time soil moisture, temperature, and humidity monitoring
+* AI-assisted irrigation recommendations
+* Crop stress detection
+* Cloud-based data processing
+* Web dashboard for monitoring and visualization
+* Cost-effective shared sensor deployment
 
-Annadata follows a hybrid model:
+---
 
-Hardware-as-a-Service (HaaS)
-Shared sensor infrastructure
-Software-as-a-Service (SaaS)
-Subscription-based farmer access
-Additional Revenue Streams
-Data insights for institutions
-Agri partnerships
-🌍 Impact
-20–30% reduction in irrigation water usage
-Early crop stress detection
-Improved farmer income potential
-Sustainable farming practices
-🧩 Tech Stack
-Hardware: ESP32, Soil Moisture Sensors, DHT Sensors
-Backend: Python / Cloud APIs
-Data Processing: Machine Learning Models
-Frontend: Web / Mobile Interface
-🤝 Government Alignment
+## System Architecture
 
-Annadata aligns with:
+1. **Data Collection**
 
-Digital Agriculture Mission
-PMKSY (Irrigation Optimization)
-Soil Health Programs
-👥 Team
-Kabir Sharma
-Clyde Rodrigues
-Shubhada Ghuge
-Joshua Dsouza
-🔮 Future Scope
-NPK sensor integration
-LoRa-based communication
-Larger pilot deployments
-AI model improvement with real data
-📌 Conclusion
+   * ESP32-based sensor nodes collect field data.
+   * Sensors monitor soil moisture, temperature, and humidity.
 
-Annadata aims to make precision agriculture accessible, affordable, and scalable by combining IoT, AI, and real-world validation.
+2. **Data Processing**
 
-## Team
+   * Sensor readings are transmitted to a cloud backend.
+   * Weather data and machine learning models are used to analyze field conditions.
 
-This project was developed collaboratively as part of a hackathon initiative. All team members contributed equally across system design, development, and testing.
+3. **Decision Support**
 
-Team Members:
-- Kabir Sharma
-- Clyde Rodrigues
-- Shubhada Ghuge
-- Joshua Dsouza
+   * The system generates irrigation recommendations and crop health insights based on the collected data.
+
+---
+
+## Technology Stack
+
+### Hardware
+
+* ESP32
+* Soil Moisture Sensor
+* Temperature & Humidity Sensor
+
+### Software
+
+* Python
+* Machine Learning
+* Cloud Backend
+* Web Application
+
+---
+
+## Future Improvements
+
+* LoRa-based long-range communication
+* NPK sensor integration
+* Expanded field deployments
+* Enhanced machine learning models trained on larger datasets
+
+---
+
+
